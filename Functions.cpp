@@ -10,6 +10,10 @@ int add(int a, int b)
     return c;
 }
 
+int multiply(int a, int b) {
+    return a*b;
+}
+
 int main() // main function
 {
     int a, b;
@@ -19,7 +23,8 @@ int main() // main function
 
     cout<<"Enter first number "<<endl;
     cin>>b;
-    cout<<"The function returned "<<add(a,b);
+    cout<<"The function returned "<<add(a,b)<<endl;
+    cout<<"The function returned "<<multiply(a,b)<<endl;
 
     return 0;
 }
